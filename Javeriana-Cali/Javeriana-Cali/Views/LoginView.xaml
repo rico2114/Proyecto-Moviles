@@ -7,7 +7,7 @@
                 <Entry Text="{Binding Username}"></Entry>
                 <Label Text="Contraseña"></Label>
                 <Entry Text="{Binding Password}"></Entry>
-                <Button Text="Login" Command="{Binding LoginCommand}"></Button>
+                <Button Text="Login" Clicked="ClickedLogin"></Button>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
