@@ -41,17 +41,17 @@ namespace JaverianaCali.Models
 
     static class Conversion {
         public static String convertDayToString(DaysOfTheWeek day) {
-            if (day.Equals(DayOfWeek.Monday)) {
+            if (day.Equals(DaysOfTheWeek.MONDAY)) {
                 return "Lunes";
-            } else if (day.Equals(DayOfWeek.Tuesday)) {
+            } else if (day.Equals(DaysOfTheWeek.TUESDAY)) {
                 return "Martes";
-            } else if (day.Equals(DayOfWeek.Wednesday)) {
+            } else if (day.Equals(DaysOfTheWeek.WEDNESDAY)) {
                 return "Miercoles";
-            } else if (day.Equals(DayOfWeek.Thursday)) {
+            } else if (day.Equals(DaysOfTheWeek.THURSDAY)) {
                 return "Jueves";
-            } else if (day.Equals(DayOfWeek.Friday)) {
+            } else if (day.Equals(DaysOfTheWeek.FRIDAY)) {
                 return "Viernes";
-            } else if (day.Equals(DayOfWeek.Saturday)) {
+            } else if (day.Equals(DaysOfTheWeek.SATURDAY)) {
                 return "Sabado";
             }
             return "Domingo";
